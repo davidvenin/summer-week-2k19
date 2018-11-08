@@ -1,0 +1,32 @@
+.article {
+  width: 400px;
+  background: #bbb;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 auto 20px;
+}
+.article--small {
+  width: 300px;
+}
+.article__title {
+  font-size: 34px;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+.article__title--isGrey {
+  color: #666;
+}
+.article__imgContainer {
+  height: 70px;
+  background: #000;
+  margin-bottom: 20px;
+}
+.article__summary {
+  font-size: 16px;
+  line-height: 22px;
+  color: purple;
+}
+.article__summary--textSmall {
+  font-size: 12px;
+}
