@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.14.3"
+  },
+  "dependencies": {
+    "flexboxgrid": "^6.3.1"
   }
 }
