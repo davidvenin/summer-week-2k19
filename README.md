@@ -1,9 +1,9 @@
 # Pug Starter
 Available with :
-* Parcel
-* SCSS
-* Pug
-* Flexboxgrid (already imported, no need to import it again)
+* [Parcel](https://parceljs.org/)
+* [SCSS](https://sass-lang.com/)
+* [Pug](https://pugjs.org/api/getting-started.html)
+* [Flexboxgrid](http://flexboxgrid.com/) (already imported, no need to import it again)
 
 ## How to install / Setup the starter
 ```
