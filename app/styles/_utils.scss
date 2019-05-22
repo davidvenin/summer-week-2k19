@@ -1,0 +1,49 @@
+$mainColor: #272727;
+$deepBlue: #2F2387;
+$pinkCandy: #FF3796;
+$darkPink: #A62462; 
+$lightest: #fff;
+
+$sidePadding: 16px;
+
+* {
+  box-sizing: border-box;
+}
+
+.reverse-lg {
+  @include lg {
+    flex-direction: row-reverse !important;
+  }
+}
+
+.g-title {
+  margin: 80px 0 40px 0;
+  font-size: 32px;
+  font-weight: bold;
+  @include lg {
+    font-size: 62px;
+  }
+}
+
+.g-txt-center {
+  text-align: center;
+}
+
+.m-bottom {
+  margin-bottom: 31px;
+  @include lg {
+    margin-bottom: 0;
+  }
+}
+
+.m-top-140 {
+  @include lg {
+    margin-top: 140px;
+  }
+}
+
+.m-top-80 {
+  @include lg {
+    margin-top: 80px;
+  }
+}
