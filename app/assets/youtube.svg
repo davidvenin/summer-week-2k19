@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="32px" viewBox="0 0 45 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>14B1C869-3D1D-441E-A2D1-228158BEBF04</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0153409091 0.01024 45 0.01024 45 31.744 0.0153409091 31.744"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.361514137">
+        <g id="Desktop-HD-Copy-2" transform="translate(-311.000000, -3576.000000)">
+            <g id="yt_icon_rgb" style="mix-blend-mode: luminosity;" transform="translate(311.000000, 3576.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M44.0596023,4.956928 C43.5421023,3.005696 42.0174716,1.469184 40.0811932,0.947712 C36.5719602,0 22.5,0 22.5,0 C22.5,0 8.42803977,0 4.91880682,0.947712 C2.98278409,1.469184 1.45789773,3.005696 0.940397727,4.956928 C0,8.493312 0,15.872 0,15.872 C0,15.872 0,23.250432 0.940397727,26.787328 C1.45789773,28.738304 2.98278409,30.274816 4.91880682,30.796544 C8.42803977,31.744 22.5,31.744 22.5,31.744 C22.5,31.744 36.5719602,31.744 40.0811932,30.796544 C42.0174716,30.274816 43.5421023,28.738304 44.0596023,26.787328 C45,23.250432 45,15.872 45,15.872 C45,15.872 45,8.493312 44.0596023,4.956928" id="Fill-1" fill="#D9252A" mask="url(#mask-2)"></path>
+                </g>
+                <polyline id="Fill-4" fill="#FFFFFE" points="17.8977273 22.571264 29.6590909 15.872256 17.8977273 9.172736 17.8977273 22.571264"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,4 +1,5 @@
 .team {
+  margin-bottom: 130px;
   &--withMargin {
     // margin-top: 32px;
     &:not(:first-child) {
@@ -23,21 +24,25 @@
       position: absolute;
       z-index: -2;
       top: 0;
+      right: 10px;
+      border-radius: 6px;
       left: -10px;
       bottom: -10px;
-      right: 0;
       background: linear-gradient(47.35deg, #D6DAFF 0%, #F0F2FF 100%);
     }
     &::after {
+      border-radius: 6px;
       content: '';
       display: block;
       position: absolute;
       z-index: -1;
-      top: 0;
-      right: 0;
+      top: -10px;
+      right: -5px;
       bottom: 0;
       left: 0;
       background: $lightest;
+      box-shadow: -7px 6px 9px -2px rgba(1, 82, 56, 0.2),
+      7px 8px 30px -10px rgba(1, 82, 56, 0.2);
     }
     @include lg {
       width: 325px;

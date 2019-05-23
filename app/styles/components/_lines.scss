@@ -1,0 +1,143 @@
+
+.lines {
+  position: fixed;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  top: 20px;
+  bottom: 0;
+  z-index: 0;
+  &__container {
+    width: 100%;
+    height: inherit;
+    position: relative;
+  }
+  &__item {
+    width: 2px;
+    height: 0;
+    opacity: 1;
+    background-color: #ccc;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    top: 0;
+    transform: translate(-50%);
+    position: absolute;
+    left: 50%;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    &--0 {
+      animation-name: vertical-linezero;
+    }
+    &--1 {
+      animation-name: vertical-lineone;
+    }
+    &--2 {
+      animation-name: vertical-linetwo;
+    }
+    &--3 {
+      animation-name: vertical-linethree;
+    }
+    &--4 {
+      animation-name: vertical-linefour;
+    }
+    &--5 {
+      animation-name: vertical-linefive;
+    }
+    &--6 {
+      animation-name: vertical-linesix;
+    }
+  }
+}
+
+@keyframes vertical-linezero {
+  0% {
+    height: 0;
+  }
+  50%{
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 0%;
+  }
+}
+
+@keyframes vertical-lineone {
+  0% {
+    height: 0;
+  }
+  50%{
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 16.6%;
+  }
+}
+@keyframes vertical-linetwo {
+  0% {
+    height: 0;
+  }
+  50%{
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 33.2%;
+  }
+}
+@keyframes vertical-linethree {
+  0% {
+    height: 0;
+  }
+  50%{
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 49.8%;
+  }
+}
+@keyframes vertical-linefour {
+  0% {
+    height: 0;
+  }
+  50%{
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 66.4%;
+  }
+}
+@keyframes vertical-linefive {
+  0% {
+    height: 0;
+  }
+  50%{
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 83%;
+  }
+}
+@keyframes vertical-linesix {
+  0% {
+    height: 0;
+  }
+  50%{
+    height: 100%;
+    left: 50%;
+  }
+  100% {
+    height: 100%;
+    left: 100%;
+  }
+}
