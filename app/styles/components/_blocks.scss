@@ -41,6 +41,38 @@
     font-size: 16px;
     line-height: 24px;
   }
+  &__picto {
+    position: relative;
+    &--goals {
+      &::after {
+        @include lg {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 118px;
+          height: 124px;
+          bottom: 59px;
+          left: -134px;
+          background: url('../assets/color-palette.svg') no-repeat center center;
+        }
+      }
+    }
+    &--eemi {
+      &::after {
+        @include lg {
+          content: "";
+          display: block;
+          position: absolute;
+          height: 275px;
+          width: 64px;
+          top: -226px;
+          left: 208px;
+          background: url('../assets/dots.svg') no-repeat center center;
+        }
+      }
+    }
+    
+  }
   &__item {
     position: relative;
     z-index: 2;

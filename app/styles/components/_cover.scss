@@ -32,6 +32,21 @@
       }
     }
   }
+  &__info {
+    position: relative;
+    &--withPicto {
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -140px;
+        left: 283px;
+        height: 135px;
+        width: 100px;
+        background: url('../assets/phone-new-message.svg') no-repeat center center;
+      }
+    }
+  }
   &__picto {
     display: none;
     @include lg {

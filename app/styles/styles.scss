@@ -27,3 +27,16 @@ body {
   position: relative;
   z-index: 1;
 }
+
+.useful {
+  font-weight: bold;
+  &--greener {
+    color: green;
+  }
+  &--orange {
+    color: orange;
+  }
+  &--deepBlue {
+    color: $deepBlue;
+  }
+}
