@@ -1,0 +1,61 @@
+.team {
+  &--withMargin {
+    // margin-top: 32px;
+    &:not(:first-child) {
+      margin-top: 32px;
+      @include lg {
+        margin-top: 0;
+      }
+    }
+  }
+  &__member {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 8px 24px 0 rgba(214,218,255,0.4);
+    padding: 20px 40px;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: -2;
+      top: 0;
+      left: -10px;
+      bottom: -10px;
+      right: 0;
+      background: linear-gradient(47.35deg, #D6DAFF 0%, #F0F2FF 100%);
+    }
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: $lightest;
+    }
+    @include lg {
+      width: 325px;
+    }
+    &-name {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0 0 8px;
+    }
+    &-job {
+      font-size: 16px;
+      margin: 0;
+    }
+    &-pictureContainer {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      background: black;
+    }
+  }
+}
