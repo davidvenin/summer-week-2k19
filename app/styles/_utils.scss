@@ -17,11 +17,18 @@ $sidePadding: 16px;
 }
 
 .g-title {
-  margin: 80px 0 50px 0;
+  position: relative;
+  z-index: 1;
   font-size: 32px;
   font-weight: bold;
   @include lg {
     font-size: 62px;
+    margin: 80px 0 50px 0;
+  }
+  &--noMargin {
+    @include lg {
+      margin: 80px 0 -50px 0;
+    }
   }
 }
 
