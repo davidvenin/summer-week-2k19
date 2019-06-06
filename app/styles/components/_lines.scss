@@ -24,26 +24,49 @@
     left: 50%;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
+    display: none;
     &--0 {
       animation-name: vertical-linezero;
+      display: none;
+      @include md {
+        display: block
+      }
     }
     &--1 {
+      display: block;
       animation-name: vertical-lineone;
     }
     &--2 {
       animation-name: vertical-linetwo;
+      display: none;
+      @include md {
+        display: block
+      }
     }
     &--3 {
       animation-name: vertical-linethree;
+      display: none;
+      @include md {
+        display: block
+      }
     }
     &--4 {
       animation-name: vertical-linefour;
+      display: none;
+      @include md {
+        display: block
+      }
     }
     &--5 {
       animation-name: vertical-linefive;
+      display: block;
     }
     &--6 {
       animation-name: vertical-linesix;
+      display: none;
+      @include md {
+        display: block
+      }
     }
   }
 }
