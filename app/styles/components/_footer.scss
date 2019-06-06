@@ -3,11 +3,8 @@
   z-index: 1;
   &__form {
     position: relative;
-    top: -20px;
-    @include md {
-      position: absolute;
-      top: 40px;
-      right: 353px;
+    @include lg {
+      top: -261px;
     }
   }
   &__content {
@@ -103,5 +100,15 @@
         margin: 0;
       }
     }
+  }
+}
+
+.socials {
+  width: 190px;
+  margin: 0 auto 86px;
+  display: flex;
+  justify-content: space-between;
+  @include md {
+    margin: 0 0 80px;
   }
 }

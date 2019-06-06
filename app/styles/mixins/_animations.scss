@@ -1,0 +1,13 @@
+@keyframes bounce {
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(0px, 25px, 50px);   
+  }
+}
+
+
+@mixin bouncer {
+  animation: bounce .8s infinite alternate;
+}

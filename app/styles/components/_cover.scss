@@ -44,6 +44,7 @@
         height: 135px;
         width: 100px;
         background: url('../assets/phone-new-message.svg') no-repeat center center;
+        @include bouncer;
       }
     }
   }

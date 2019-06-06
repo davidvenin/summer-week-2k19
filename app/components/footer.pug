@@ -4,16 +4,10 @@ footer.subscribe#subscribe
       .row
         .col-xs-12.col-md-4.col-md-offset-1
           h3.subscribe__title Les inscriptions c’est par ici
-          p.subscribe__text Tu souhaites comprendre le web et ses métiers tout en te divertissant ? Viens te challenger! Réalises un projet Web en une semaine si tu t’en crois  capable. Nous, on le croit! Une dernière question avant de  t’inscrire ?
-          span.subscribe__text--isImportant Contactes nous :)
-
-  .container.subscribe__form
-    .row.reverse.around-xs.start-md
-      .col-xs-11.col-md-4.col-md-offset-1
-        include ./form.pug
-
+          p.subscribe__text Tu souhaites comprendre le web et ses métiers tout en te divertissant ? Viens te challenger! Réalise un projet Web en une semaine si tu t’en crois  capable. Nous, on le croit! Une dernière question avant de t’inscrire ?
+          span.subscribe__text--isImportant Contacte-nous :)
   .container
-    .row
+    .row.around-xs.start-md
       .col-xs-12.col-md-offset-2.col-md-4
         .legals
           h3.legals__title 
@@ -28,7 +22,11 @@ footer.subscribe#subscribe
             a.legals__link(href="tel:") 01 45 56 15 61
             a.legals__link(href="mailto:contact@eemi.com") contact@eemi.com
           .socials
-            a.socials__link.socials__link--linkedin(href="")
-            a.socials__link.socials__link--youtube(href="")
-            a.socials__link.socials__link--twitter(href="")
-      
+            a.socials__link.socials__link--linkedin(href="https://www.linkedin.com/school/eemi/" target="_blank")
+              img(src="./assets/linkedin.svg", alt="")
+            a.socials__link.socials__link--youtube(href="https://www.youtube.com/user/EcoleEEMI" target="_blank")
+              img(src="./assets/youtube.svg", alt="")
+            a.socials__link.socials__link--twitter(href="https://twitter.com/EEMI75" target="_blank")
+              img(src="./assets/twitter.svg", alt="")
+      .col-xs-11.col-md-4.col-md-offset-1.subscribe__form.first-xs.last-md
+        include ./form.pug

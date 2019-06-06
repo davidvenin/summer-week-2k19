@@ -54,6 +54,7 @@
           bottom: 59px;
           left: -134px;
           background: url('../assets/color-palette.svg') no-repeat center center;
+          @include bouncer;
         }
       }
     }
