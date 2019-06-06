@@ -4,9 +4,10 @@
   &__form {
     position: relative;
     top: -20px;
-    @include lg {
+    @include md {
       position: absolute;
       top: 40px;
+      right: 353px;
     }
   }
   &__content {

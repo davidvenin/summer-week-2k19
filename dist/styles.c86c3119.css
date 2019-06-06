@@ -547,10 +547,11 @@
   position: relative;
   top: -20px;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .subscribe__form {
     position: absolute;
     top: 40px;
+    right: 353px;
   }
 }
 .subscribe__content {
