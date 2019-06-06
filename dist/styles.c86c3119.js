@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../assets/dots.svg":[["dots.c5b1a704.svg","assets/dots.svg"],"assets/dots.svg"],"./../assets/phone-new-message.svg":[["phone-new-message.f97246a2.svg","assets/phone-new-message.svg"],"assets/phone-new-message.svg"],"./../assets/color-palette.svg":[["color-palette.19b3ad8a.svg","assets/color-palette.svg"],"assets/color-palette.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../assets/dots.svg":[["dots.c5b1a704.svg","assets/dots.svg"],"assets/dots.svg"],"./../assets/phone-new-message.svg":[["phone-new-message.f97246a2.svg","assets/phone-new-message.svg"],"assets/phone-new-message.svg"],"./../assets/color-palette.svg":[["color-palette.19b3ad8a.svg","assets/color-palette.svg"],"assets/color-palette.svg"],"./../assets/write-paper-ink.svg":[["write-paper-ink.851de006.svg","assets/write-paper-ink.svg"],"assets/write-paper-ink.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

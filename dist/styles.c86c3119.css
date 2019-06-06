@@ -359,6 +359,11 @@
   cursor: pointer;
   width: 276px;
   margin: 0 auto;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.cover__button:hover {
+  background: #CC186E;
 }
 @media (min-width: 992px) {
   .cover__button {
@@ -373,6 +378,15 @@
   height: 40px;
   background: #A62462;
   border-radius: 6px;
+  position: relative;
+}
+.cover__button-icon img {
+  width: 16px;
+  height: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .cover__flexed {
   display: flex;
@@ -703,6 +717,22 @@
   box-shadow: 0 8px 24px 0 rgba(214, 218, 255, 0.4);
   padding: 40px 32px;
   border-radius: 6px;
+  position: relative;
+}
+.form::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  background: url("/write-paper-ink.851de006.svg") no-repeat center center;
+  width: 140px;
+  height: 127px;
+  top: -80px;
+}
+@media (min-width: 768px) {
+  .form::before {
+    top: -102px;
+  }
 }
 .form__fieldset {
   margin-bottom: 24px;
@@ -731,6 +761,11 @@
   font-size: 24px;
   text-transform: uppercase;
   cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.form__button:hover {
+  background: #CC186E;
 }
 
 body {

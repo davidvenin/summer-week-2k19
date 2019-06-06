@@ -3,6 +3,20 @@
   box-shadow: 0 8px 24px 0 rgba(214,218,255,0.4);
   padding: 40px 32px;
   border-radius: 6px;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    background: url('../assets/write-paper-ink.svg') no-repeat center center;
+    width: 140px;
+    height: 127px;
+    top: -80px;
+    @include md {
+      top: -102px;
+    }
+  }
   &__fieldset {
     margin-bottom: 24px;
   }
@@ -30,5 +44,10 @@
     font-size: 24px;
     text-transform: uppercase;
     cursor: pointer;
+    transition: all .3s ease;
+    text-decoration: none;
+    &:hover {
+      background: #CC186E;
+    }
   }
 }

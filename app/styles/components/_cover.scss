@@ -123,6 +123,11 @@
     cursor: pointer;
     width: 276px;
     margin: 0 auto;
+    transition: all .3s ease;
+    text-decoration: none;
+    &:hover {
+      background: #CC186E;
+    }
     @include lg {
       margin: 0;
       font-size: 24px;
@@ -134,6 +139,15 @@
       height: 40px;
       background: $darkPink;
       border-radius: 6px;
+      position: relative;
+      img {
+        width: 16px;
+        height: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
     }
   }
   &__flexed {
