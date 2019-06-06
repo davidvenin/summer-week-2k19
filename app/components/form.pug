@@ -1,0 +1,14 @@
+form.form(name="contact" method="POST" data-netlify="true")
+  .form__fieldset
+    label.form__label Nom
+    input.form__input(placeholder="Doe" name="last_name" type="text")
+  .form__fieldset
+    label.form__label Prénom
+    input.form__input(placeholder="John" name="first_name" type="text")
+  .form__fieldset
+    label.form__label Téléphone
+    input.form__input(placeholder="XX XX XX XX XX" name="phone_number" type="text")
+  .form__fieldset
+    label.form__label E-mail
+    input.form__input(placeholder="john.doe@gmail.com" name="email" type="email")
+  button.form__button(type="submit") Envoyer

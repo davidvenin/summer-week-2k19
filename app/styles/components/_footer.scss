@@ -1,0 +1,106 @@
+.subscribe {
+  position: relative;
+  z-index: 1;
+  &__form {
+    position: relative;
+    top: -20px;
+    @include lg {
+      position: absolute;
+      top: 40px;
+    }
+  }
+  &__content {
+    background: linear-gradient(270deg, #5C49BC 0%, #2F2387 100%);
+    padding: 24px 0 119px;
+    @include lg {
+      padding: 40px 0 64px;
+    }
+  }
+  &__title {
+    text-align: center;
+    position: relative;
+    color: $lightest;
+    font-size: 24px;
+    padding: 0 16px 0;
+    margin: 0 0 20px;
+    @include lg {
+      text-align: left;
+      padding: 0 0 20px;
+    }
+  }
+  &__text {
+    text-align: center;
+    position: relative;
+    color: $lightest;
+    font-size: 16px;
+    padding: 0 16px 0;
+    line-height: 24px;
+    &--isImportant {
+      text-align: center;
+      color: $lightest;
+      position: relative;
+      font-weight: bold;
+      display: block;
+      @include lg {
+        text-align: left;
+      }
+    }
+    @include lg {
+      text-align: left;
+      padding: 0;
+    }
+  }
+}
+
+.legals {
+  @include lg {
+    margin-top: 144px;
+    padding-left: 50px;
+  }
+  &__title {
+    position: relative;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    @include lg {
+      text-align: left;
+    }
+  }
+  &__address {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: normal;
+    margin: 32px 0 24px;
+    @include lg {
+      text-align: left;
+      margin: 24px 0 40px;
+    }
+  }
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    @include md {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  &__link {
+    display: block;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    transform: all .3s ease;
+    &:hover {
+      color: $pinkCandy;
+    }
+    &:not(:last-child) {
+      margin-bottom: 24px;
+      @include md {
+        margin: 0;
+      }
+    }
+  }
+}

@@ -121,7 +121,10 @@
     color: $lightest;
     border-radius: 6px;
     cursor: pointer;
+    width: 276px;
+    margin: 0 auto;
     @include lg {
+      margin: 0;
       font-size: 24px;
     }
     &-icon {
@@ -131,6 +134,26 @@
       height: 40px;
       background: $darkPink;
       border-radius: 6px;
+    }
+  }
+  &__flexed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include md {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+  &__dates {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: $mainColor;
+    margin-top: 24px;
+    text-align: center;
+    @include md {
+      margin: 0 0 0 24px;
     }
   }
 }

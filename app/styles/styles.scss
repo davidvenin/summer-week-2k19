@@ -6,6 +6,8 @@
 @import './components/cover';
 @import './components/blocks';
 @import './components/team';
+@import './components/footer';
+@import './components/form';
 
 body {
   color: $mainColor;
@@ -17,13 +19,19 @@ body {
     height: 20px;
     background: $deepBlue;
   }
-}
-
-.app {
-  
+  &::after {
+    position: relative;
+    z-index:1000;
+    width: 100%;
+    display: block;
+    content: '';
+    height: 20px;
+    background: $deepBlue;
+  }
 }
 
 .content {
+  overflow: hidden;
   position: relative;
   z-index: 1;
 }
