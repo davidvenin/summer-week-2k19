@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
     {name: 'linkedin', data: linkedin},
     {name: 'twitter', data: twitter},
   ];
+
   AOS.init();
 
   for(let i = 0; i < socials.length; i++) {
-    console.log(socials[i]);
     lottie.loadAnimation({
       container: document.querySelector(`#${socials[i].name}`), // the dom element that will contain the animation
       renderer: 'svg',
