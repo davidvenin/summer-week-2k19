@@ -108,7 +108,26 @@
   margin: 0 auto 86px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   @include md {
     margin: 0 0 80px;
+  }
+  &__link {
+    &--twitter {
+      width: 32px;
+      height: 32px;
+    }
+    &--linkedin {
+      width: 32px;
+      height: 32px;
+    }
+    &--youtube {
+      height: 31px;
+      width: 45px;
+    }
+    &--facebook {
+      width: 32px;
+      height: 32px;
+    }
   }
 }

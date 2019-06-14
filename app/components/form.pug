@@ -1,14 +1,14 @@
 form.form(name="contact" method="POST" data-netlify="true")
   .form__fieldset
     label.form__label(for="lastName") Nom
-    input.form__input#lastName(placeholder="Doe" name="last_name" type="text")
+    input.form__input#lastName(placeholder="Doe" name="last_name" type="text" required)
   .form__fieldset
     label.form__label(for="firstName") Prénom
-    input.form__input#firstName(placeholder="John" name="first_name" type="text")
+    input.form__input#firstName(placeholder="John" name="first_name" type="text" required)
   .form__fieldset
     label.form__label(for="phone") Téléphone
-    input.form__input#phone(placeholder="XX XX XX XX XX" name="phone_number" type="text")
+    input.form__input#phone(placeholder="XX XX XX XX XX" name="phone_number" type="text" required)
   .form__fieldset
     label.form__label(for="email") E-mail
-    input.form__input#email(placeholder="john.doe@gmail.com" name="email" type="email")
+    input.form__input#email(placeholder="john.doe@gmail.com" name="email" type="email" required)
   button.form__button(type="submit") Envoyer

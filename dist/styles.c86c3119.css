@@ -724,11 +724,28 @@
   margin: 0 auto 86px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 @media (min-width: 768px) {
   .socials {
     margin: 0 0 80px;
   }
+}
+.socials__link--twitter {
+  width: 32px;
+  height: 32px;
+}
+.socials__link--linkedin {
+  width: 32px;
+  height: 32px;
+}
+.socials__link--youtube {
+  height: 31px;
+  width: 45px;
+}
+.socials__link--facebook {
+  width: 32px;
+  height: 32px;
 }
 
 .form {
